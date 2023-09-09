@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  AppDelegate.hh
 //  Wave
 //
 //  Created by Leon Rinkel on 05.09.23.
@@ -9,6 +9,6 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (nonatomic, strong) NSWindow *window;
 
 @end
